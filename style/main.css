@@ -134,6 +134,16 @@ button {
     width: 100%;
     border: 0.5px solid rgba(211, 211, 211, 0.78);
     border-radius: 4px;
+    transition: 0.3s all;
+}
+
+.project:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover .project__title {
+    color: blue;
 }
 
 .project>a img {
