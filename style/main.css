@@ -225,6 +225,45 @@ button {
     color: blue;
 }
 
+
+/* Contact */
+
+.contact {
+    padding: 96px 0;
+}
+
+.contact__info {
+    font-size: 20px;
+    color: darkgray;
+    margin-bottom: 48px;
+}
+
+.contact__box {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    transition: .5s;
+}
+
+.contact__item {
+    max-width: 368px;
+    width: 100%;
+}
+
+.info__title {
+    font-size: 20px;
+    color: #030303;
+}
+
+.contact__link {
+    color: darkgray;
+}
+
+.contact__item:hover .contact__link{
+    color: blue;
+}
+
+
 /* Footer */
 
 .footer {
