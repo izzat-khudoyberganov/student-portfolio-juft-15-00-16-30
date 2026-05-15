@@ -134,6 +134,16 @@ button {
     width: 100%;
     border: 0.5px solid rgba(211, 211, 211, 0.78);
     border-radius: 4px;
+    transition: 0.3s all;
+}
+
+.project:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project:hover .project__title {
+    color: blue;
 }
 
 .project>a img {
@@ -166,4 +176,60 @@ button {
     background-color: rgb(241, 240, 240);
     border-radius: 9999px;
     text-transform: capitalize;
+}
+
+
+/* Contact section */
+
+
+.contact {
+    padding: 96px 0;
+}
+
+.contact__text {
+    color: darkgray;
+    margin-bottom: 48px;
+    font-size: 20px;
+}
+
+.contact__box {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.contact__item {
+    background-color: #fff;
+    border: 0.5px solid rgba(211, 211, 211, 0.78);
+    padding: 24px;
+    max-width:366px ;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    transition: 0.5s;
+}
+
+.info__title {
+    font-size: 16px;
+    color: #030303;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact__link {
+    color: darkgray;
+}
+
+.contact__item:hover .contact__link{
+    color: blue;
+}
+
+/* Footer */
+
+.footer {
+    border: 0.5px solid rgba(211, 211, 211, 0.78);
+    padding: 32px 0;
+    text-align: center;
+    color: darkgray;
 }
